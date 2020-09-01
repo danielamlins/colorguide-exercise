@@ -1,0 +1,14 @@
+@mixin three-colors($color, $percentage) {
+    .color {
+
+        background-color: $color;
+
+        .light {
+            background-color: darken($color, $percentage);
+        }
+
+        .dark {
+            background-color: lighten($color, $percentage);
+        }
+    }
+}
