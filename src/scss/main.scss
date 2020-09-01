@@ -1,25 +1,7 @@
-@import 'mixings';
-@import 'variables';
+@import './variables/variables';
+@import './mixins/mixings';
 
-.color {
-    height: 10rem;
-}
-
-.one {
-    @include three-colors($one,$percentage-change);
-}
-
-.two {
-    @include three-colors($two, $percentage-change);
-}
-
-.three {
-    @include three-colors($three, $percentage-change);
-}
-
-.four {
-    @include three-colors($four, $percentage-change);
-}
+@import './layout/layout';
 
 // This is where you can import other stylesheets or write your scss code
 @import "../../node_modules/bootstrap/scss/bootstrap";

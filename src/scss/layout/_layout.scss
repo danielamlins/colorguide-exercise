@@ -1,0 +1,19 @@
+.color {
+    height: 9rem;
+}
+
+.one {
+    @include three-colors($one,$percentage-change);
+}
+
+.two {
+    @include three-colors($two, $percentage-change);
+}
+
+.three {
+    @include three-colors($three, $percentage-change);
+}
+
+.four {
+    @include three-colors($four, $percentage-change);
+}
